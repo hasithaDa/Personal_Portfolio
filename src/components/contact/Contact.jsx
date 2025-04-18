@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { motion } from "framer-motion"; 
+import { motion } from "framer-motion";
 import "./contact.css";
 
 const Contact = () => {
@@ -18,13 +18,13 @@ const Contact = () => {
   };
 
   const Submit = (e) => {
-    e.preventDefault(); 
+    e.preventDefault();
 
     const formEle = document.querySelector("form");
     const formDatab = new FormData(formEle);
 
     fetch(
-      "https://script.google.com/macros/s/AKfycbyycvL6RjgVpHHGO7ixB4ICkg6pk7J7sueRwLNtCNen9nj-mIaTqurta4af_rreJfiLtg/exec",
+      "https://script.google.com/macros/s/AKfycbwT2IJVEW1mcbOb9tKE0FaqJNzzeoxemcUxkT9k_razKPruUd2lxbg9AkDCQdjKWhTr/exec",
       {
         method: "POST",
         body: formDatab,
@@ -38,7 +38,7 @@ const Contact = () => {
           project: "",
         });
       })
-      .catch((error) => { 
+      .catch((error) => {
         setFormData({
           name: "",
           email: "",
@@ -77,12 +77,10 @@ const Contact = () => {
               <i className="bx bx-mail-send contact__card-icon"></i>
 
               <h3 className="contact__card-title">Email</h3>
-              <span className="contact__card-data">
-                chamith13kavinda@gmail.com
-              </span>
+              <span className="contact__card-data">hamdhasitha@gmail.com</span>
 
               <a
-                href="mailto:chamith13kavinda@gmail.com"
+                href="mailto:hamdhasitha@gmail.com"
                 className="contact__button"
               >
                 Write me{" "}
@@ -99,9 +97,9 @@ const Contact = () => {
               <i className="bx bxl-whatsapp contact__card-icon"></i>
 
               <h3 className="contact__card-title">Whatsapp</h3>
-              <span className="contact__card-data">+94 76 210 6834</span>
+              <span className="contact__card-data">+94 71 213 8246</span>
 
-              <a href="https://wa.me/94762106834" className="contact__button">
+              <a href="https://wa.me/94712138246" className="contact__button">
                 Write me{" "}
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
@@ -116,10 +114,10 @@ const Contact = () => {
               <i className="bx bxl-discord contact__card-icon"></i>
 
               <h3 className="contact__card-title">Discord</h3>
-              <span className="contact__card-data">chamith_kavinda</span>
+              <span className="contact__card-data">hasitha_darshana</span>
 
               <a
-                href="https://discord.com/users/1058558275982991381"
+                href="https://discord.com/users/hasitha_da"
                 className="contact__button"
               >
                 Write me{" "}
@@ -135,7 +133,7 @@ const Contact = () => {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.7 }}
         >
-          <h3 className="contact__title">Write me your project</h3>
+          <h3 className="contact__title">Contact Form</h3>
 
           <motion.form
             className="contact__form"
