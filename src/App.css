@@ -170,12 +170,19 @@ img{
 }
 
 .button__icon{
+    font-size: 1rem; /* adjust size if needed */
+    vertical-align: middle;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     margin-left: var(--mb-0-25);
 }
 
 .button--flex {
     display: inline-flex;
     align-items: center;
+    justify-content: center;
+    column-gap: 0.5rem; 
 }
 
 /* breakpoints */
