@@ -169,20 +169,17 @@ img{
     background-color: var(--title-color-dark);
 }
 
-.button__icon{
-    font-size: 1rem; /* adjust size if needed */
-    vertical-align: middle;
-    display: inline-flex;
+.button__icon {
+    margin-left: var(--mb-0-25);
+    display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: var(--mb-0-25);
-}
+    font-size: 0.99rem;
+  }
 
 .button--flex {
     display: inline-flex;
     align-items: center;
-    justify-content: center;
-    column-gap: 0.5rem; 
 }
 
 /* breakpoints */
