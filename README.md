@@ -1,5 +1,8 @@
 # Personal Portfolio Website
 
+![Image](src/assets/portfolio.png)
+
+
 A responsive and interactive portfolio built with React.js and custom CSS. Showcases my skills, projects, and achievements as a full-stack developer. Designed to highlight my experience, technical expertise, and passion for building modern web applications.
 
 https://hamdhasitha.me/
